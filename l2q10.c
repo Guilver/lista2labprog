@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+  for (int i = 15; i <= 90; i++) {
+    if (i % 4 == 0) {
+      printf("[%d] ", i * i);
+    }
+  }
+  return 0;
+}
